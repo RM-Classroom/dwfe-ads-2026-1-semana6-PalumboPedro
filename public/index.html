@@ -1,157 +1,248 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Coleção Naruto</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
-<body>
-    <header class="header">
-        <h1>Coleção Naruto</h1>
+<body class="bg-black">
 
-       <nav class="menu">
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Personagens</a></li>
-        <li><a href="#">Vilas</a></li>
-        <li><a href="#">Contato</a></li>
-    </ul>
-</nav>
+    <header class="bg-dark p-4 border-bottom border-secondary">
+
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+
+            <h1 class="text-light">
+                Coleção Naruto
+            </h1>
+
+            <nav>
+
+                <ul class="nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">
+                            Personagens
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">
+                            Vilas
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">
+                            Contato
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
     </header>
 
     <main class="container">
 
-        
-        <section class="banner">
-            <img src="imagem/imagem_baner.jpg" alt="Banner">
-        </section>
-        <section class="intro">
-          <h2>Bem-vindo ao Universo Naruto</h2>
+        <section class="my-4">
 
-          <p>
-              Explore personagens icônicos, conheça suas vilas
-              e descubra mais sobre o mundo ninja.
-          </p>
+            <img src="imagem/imagem_baner.jpg"
+                 class="img-fluid rounded"
+                 alt="Banner">
+
         </section>
 
-        
-        <section class="busca">
-            <h2>Buscar Personagem</h2>
+        <section class="text-center my-5">
 
-            <form class="form">
-                <input type="text" placeholder="Digite o nome">
-                
-                <select>
-                    <option>Selecionar vila</option>
-                    <option>Konoha</option>
-                    <option></option>
-                </select>
+            <h2 class="text-light">
+                Bem-vindo ao Universo Naruto
+            </h2>
 
-                <button type="submit">Buscar</button>
+            <p class="text-secondary">
+                Explore os personagens mais famosos do anime Naruto
+                e conheça suas histórias, habilidades e vilas.
+            </p>
+
+        </section>
+
+        <section class="mb-5">
+
+            <h2 class="text-center text-light mb-4">
+                Buscar Personagem
+            </h2>
+
+            <form class="row g-3 justify-content-center">
+
+                <div class="col-md-4">
+
+                    <input type="text"
+                           class="form-control"
+                           placeholder="Digite o nome">
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <select class="form-select">
+
+                        <option>Selecionar vila</option>
+                        <option>Konoha</option>
+
+                    </select>
+
+                </div>
+
+                <div class="col-md-2">
+
+                    <button class="btn btn-dark w-100">
+                        Buscar
+                    </button>
+
+                </div>
+
             </form>
+
         </section>
 
-        
-        <section class="personagens">
+        <section class="row g-4">
 
-    <article class="card">
-        <img src="imagem/imagem_naruto.jpg">
+            <article class="col-12 col-md-6 col-lg-3">
 
-        <h3>Naruto Uzumaki</h3>
+                <div class="card bg-dark text-light h-100">
 
-        <p>
-            Ninja determinado da Vila da Folha que sonha em se tornar Hokage.
-        </p>
-    </article>
+                    <img src="imagem/imagem_naruto.jpg"
+                         class="card-img-top"
+                         alt="Naruto">
 
-    <article class="card">
-        <img src="imagem/imagem_sasuke.png">
+                    <div class="card-body">
 
-        <h3>Sasuke Uchiha</h3>
+                        <h3 class="card-title">
+                            Naruto Uzumaki
+                        </h3>
 
-        <p>
-            Último sobrevivente do clã Uchiha em busca de poder e vingança.
-        </p>
-    </article>
+                        <p class="card-text">
+                            Ninja determinado da Vila da Folha e futuro Hokage.
+                        </p>
 
-    <article class="card">
-        <img src="imagem/imagem_sakura.webp">
+                    </div>
 
-        <h3>Sakura Haruno</h3>
+                </div>
 
-        <p>
-            Ninja médica extremamente inteligente e forte da Equipe 7.
-        </p>
-    </article>
+            </article>
 
-    <article class="card">
-        <img src="imagem/imagem_kakashi.webp">
+            <article class="col-12 col-md-6 col-lg-3">
 
-        <h3>Kakashi Hatake</h3>
+                <div class="card bg-dark text-light h-100">
 
-        <p>
-            Líder da Equipe 7 conhecido como o Ninja Copiador.
-        </p>
-    </article>
+                    <img src="imagem/imagem_sasuke.png"
+                         class="card-img-top"
+                         alt="Sasuke">
 
-    <article class="card">
-        <img src="imagem/imagem_ino.jpg">
+                    <div class="card-body">
 
-        <h3>Ino Yamanaka</h3>
+                        <h3 class="card-title">
+                            Sasuke Uchiha
+                        </h3>
 
-        <p>
-            Ninja especialista em técnicas mentais e integrante do time Ino-Shika-Cho.
-        </p>
-    </article>
+                        <p class="card-text">
+                            Último sobrevivente do clã Uchiha em busca de vingança.
+                        </p>
 
-    <article class="card">
-        <img src="imagem/imagem_shikamaru.webp">
+                    </div>
 
-        <h3>Shikamaru Nara</h3>
+                </div>
 
-        <p>
-            Estrategista genial da Vila da Folha que controla sombras.
-        </p>
-    </article>
+            </article>
 
-    <article class="card">
-        <img src="imagem/imagem_choji.png">
+            <article class="col-12 col-md-6 col-lg-3">
 
-        <h3>Choji Akimichi</h3>
+                <div class="card bg-dark text-light h-100">
 
-        <p>
-            Ninja gentil do clã Akimichi que utiliza técnicas de expansão corporal.
-        </p>
-    </article>
+                    <img src="imagem/imagem_sakura.webp"
+                         class="card-img-top"
+                         alt="Sakura">
 
-    <article class="card">
-        <img src="imagem/imagem_asuma.jpg">
+                    <div class="card-body">
 
-        <h3>Asuma Sarutobi</h3>
+                        <h3 class="card-title">
+                            Sakura Haruno
+                        </h3>
 
-        <p>
-            Jounin experiente e mestre do Time 10 da Vila da Folha.
-        </p>
-    </article>
+                        <p class="card-text">
+                            Ninja médica extremamente inteligente da Equipe 7.
+                        </p>
 
-    </section>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <article class="col-12 col-md-6 col-lg-3">
+
+                <div class="card bg-dark text-light h-100">
+
+                    <img src="imagem/imagem_kakashi.webp"
+                         class="card-img-top"
+                         alt="Kakashi">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title">
+                            Kakashi Hatake
+                        </h3>
+
+                        <p class="card-text">
+                            Líder da Equipe 7 conhecido como Ninja Copiador.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
 
     </main>
 
-    
-    <footer class="footer">
+    <footer class="bg-dark text-light text-center p-4 mt-5 border-top border-secondary">
 
-     <p>© Projeto Naruto</p>
+        <p>© Projeto Naruto</p>
 
-     <div class="redes">
-        <a href="#">Instagram</a>
-        <a href="#">GitHub</a>
-        <a href="#">Contato</a>
-      </div>
+        <a href="#" class="text-light mx-2">
+            Instagram
+        </a>
 
-     </footer>
+        <a href="#" class="text-light mx-2">
+            GitHub
+        </a>
+
+        <a href="#" class="text-light mx-2">
+            Contato
+        </a>
+
+    </footer>
 
 </body>
+
 </html>

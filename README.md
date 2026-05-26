@@ -10,18 +10,18 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Pedro Augusto Noronha Palumbo 
+- Matricula:  915705
+- Proposta de projeto escolhida: 4. coleções e  itens
+- Breve descrição sobre seu projeto: O projeto consiste em uma aplicação web que apresenta uma coleção de personagens do anime Naruto, exibindo informações visuais e organizadas sobre cada personagem, como nome, imagem e futuramente outras características.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![bootstrap_desktop](public/imagem/bootstrap_desktop.png)
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![bootstrap_mobile](public/imagem/bootstrap_mobile.jpeg)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
